@@ -21,3 +21,18 @@ SURNAME = {'A': 'Analogue', 'B': 'Bomb', 'C': 'Catalyst', 'E': 'Enormous', 'F': 
 # 3.
 # Иногда люди могут забыть написать первую букву своего имени с заглавной буквы, поэтому ваш скрипт должн учитывать эти грамматические ошибки.
 
+name_surname = input()
+
+
+name = name_surname.split(' ')[0]
+surname = name_surname.split(' ')[1] 
+
+name = name.upper()
+surname = surname.upper()
+
+if (name[0] in FIRST_NAME) and (surname[0] in SURNAME):
+    psev_name = FIRST_NAME[name[0]]
+    psev_surname = SURNAME[surname[0]]
+    print(psev_surname, psev_name)
+else:
+    print("Ваше имя должно начинаться с буквы от A до Z")
