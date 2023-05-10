@@ -36,3 +36,6 @@ if (name[0] in FIRST_NAME) and (surname[0] in SURNAME):
     print(psev_surname, psev_name)
 else:
     print("Ваше имя должно начинаться с буквы от A до Z")
+    
+# Хорошо! Теперь необходимо превратить это решение в функцию.
+# Его также нужно передать на репозиторий с помощью git 
