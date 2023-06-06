@@ -10,3 +10,6 @@ def get_pseudonym(name_surname):
         return psev_surname + ' ' + psev_name
     else:
         return "Ваше имя должно начинаться с буквы от A до Z"
+    
+# У меня на экране при запуске этой задачи нет никакого вывода.
+# Почему?
